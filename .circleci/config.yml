@@ -8,7 +8,7 @@ jobs:
       - image: circleci/python:3.6.2-stretch-browsers
         auth:
           username: mydockerhub-user
-          password: $DOCKERHUB_PASSWORD  # context / project UI env-var references
+          password: $DOCKERHUB_PASSWORD  # context / project UI env-var referencess
     steps:
       - checkout
       - restore_cache:
